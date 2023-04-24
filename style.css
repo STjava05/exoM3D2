@@ -44,10 +44,10 @@
     margin-right: 8px;
 }
 
-/* card */
+/* article */
 
-.card{
-    background-color: rgb(255, 255, 180);
+.article{
+    background-color: rgb(255, 255, 209);
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -55,10 +55,44 @@
     gap: 20px 20px;
     color: rgb(144, 49, 9);
 }
-.card img{
+.article img{
     width: 500px;
 }
 .text-box{
     width: 500px;
     
+}
+
+/* card */
+main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgb(255, 255, 209);
+    color: rgb(144, 49, 9);
+    border-radius: 80px;
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+button{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 35px;
+    border: 0;
+    color: rgb(144, 49, 9);
 }
